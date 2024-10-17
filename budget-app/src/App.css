@@ -1,0 +1,14 @@
+.brand{
+    background-color: rgb(30, 120, 120);
+    display: flex;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+.brand-name{
+    padding-left: 30px;
+    padding-top: 5px;
+    color: aliceblue;
+}
