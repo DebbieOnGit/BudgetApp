@@ -19,11 +19,14 @@ function Brand(){
         <>
         
         <div className="brand">
-            
+            <div>
                 <img src={budgetlogo}/>
                 <a className='brand-name' href="./Brand.jsx">SmartSpender</a>
 
-                <Button variant="primary" onClick={handleShow}> Get started </Button>
+            </div>
+
+            <div >
+                <Button  variant="primary" onClick={handleShow}> Get started </Button>
 
                 <Offcanvas show={show} onHide={handleClose}>
 
@@ -34,12 +37,13 @@ function Brand(){
                         <ul>
 
                             <li><a href="#">Create Budget</a></li>
+                            <li><a href="#">Calculate my Net Salary</a></li>
                         </ul>
                         
                     </OffcanvasBody>
 
                 </Offcanvas>
-                
+                </div>    
             
         </div>
 
