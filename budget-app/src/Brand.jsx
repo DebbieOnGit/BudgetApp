@@ -30,7 +30,15 @@ function Brand(){
 
                 <Offcanvas show={show} onHide={handleClose}>
 
-                    <OffcanvasHeader closeButton>
+                    <OffcanvasHeader>
+                    <OffcanvasTitle>Navigation</OffcanvasTitle>
+                    {/* <CloseButton className="text-reset" onClick={() => setShow(false)} /> */}
+                    </OffcanvasHeader>
+                    <OffcanvasBody>
+                        Try scrolling the rest of the page to see this option in action.
+                    </OffcanvasBody>
+
+                    {/* <OffcanvasHeader closeButton>
                         <OffcanvasTitle>Navigation</OffcanvasTitle>
                     </OffcanvasHeader>
                     <OffcanvasBody>
@@ -40,7 +48,7 @@ function Brand(){
                             <li><a href="#">Calculate my Net Salary</a></li>
                         </ul>
                         
-                    </OffcanvasBody>
+                    </OffcanvasBody> */}
 
                 </Offcanvas>
                 </div>    
