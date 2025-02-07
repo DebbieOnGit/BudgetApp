@@ -1,11 +1,13 @@
-import Brand from "./Brand";
-// 
+// import Brand from "./Brand";
+import Navbar from "./Navbar";
+
 function Dashboard() {
 
 
     return(
         <>
-        <Brand/>
+        <Navbar/>
+        {/* <Brand/> */}
         </>
     );
 }
