@@ -1,4 +1,4 @@
-// import Brand from "./Brand";
+// import budgetlogo from './assets/budgetlogo.png';
 import Navbar from "./Navbar";
 
 function Dashboard() {
@@ -7,7 +7,7 @@ function Dashboard() {
     return(
         <>
         <Navbar/>
-        {/* <Brand/> */}
+        
         </>
     );
 }
